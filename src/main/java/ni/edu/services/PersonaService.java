@@ -6,7 +6,7 @@ public class PersonaService {
     private Persona [] personas;
     private int pos = 0;
 
-    public PersonaService (Persona [] personas){
+    public PersonaService (){
         this.personas = new Persona[10];
     }
 
